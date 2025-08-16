@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(131, 146, 160);
+    font-family: sans-serif;
+}
+h1{
+    background-color: rgb(174, 179, 245);
+    color: rgb(0, 0, 0);
+    justify-content: center
+}
+
+a{
+    color: rgb(14, 5, 56);
+}
+
+p{color: rgb(0, 0, 0);}
+
+h1:hover{
+    background-color: rgb(108, 66, 207);
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    background-color: rgb(104, 226, 190);
+}
+.contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.barra ul{
+
+display: flex;
+text-decoration: none;
+gap: 15vh;
+
+}
