@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        
+body{
+    background-color:rgb(203, 228, 163);
+    justify-content: center;
+}
+
+.contenedor:hover{
+    background-color: rgb(125, 163, 245);
+    
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+.contenedor:hover h1{
+    color: rgb(0, 0, 0);
+ ;
+}
+
+  li{
+    color:rgb(0, 0, 0);
+  }
+  a{
+    color: rgb(0, 0, 0);
+  }
+    a:hover{
+background-color: rgb(225, 241, 206);
+    }
+.contenedor{
+
+    background-color: rgb(117, 115, 241);
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    margin: 8%;
+    width: 80vw;
+    align-items: center;
+}
+
+#barra ul{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+#barra li{
+    text-decoration: none;
+}
+#cuerpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding: 8vh;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+#cuerpo img {
+    width: 70%;
+
+}
+.content{
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+}
+
+
+</style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1 id="nombrePokemon" class="azul">Nombre Pokemon</h1>
+<nav>
+    <ul>
+        <li><a href="#" data-pokemon="manectric">manectric</a></li>
+        <li><a href="#" data-pokemon="sandy-shocks">sandy-shocks</a></li>
+        <li><a href="#" data-pokemon="skeledirge">skeledirge</a></li>
+    </ul>
+</nav>
+</div>
+<div class="content">
+<img id="imagenPokemon" src="">
+
+</div>
+<script src="./actions.js"></script>
+   
+</div>
+
+<div id="cuerpo">
+
+    <p> Manectric es un Pokémon tipo eléctrico introducido en la tercera generación. Es conocido por su apariencia de perro, su pelaje electrificado y su habilidad para generar y descargar electricidad. Manectric evoluciona de Electrike y puede megaevolucionar a Mega-Manectric. 
+ </p>
+    
+
+    <p>Descripción física:
+Apariencia: Manectric es un Pokémon cuadrúpedo con forma de perro, de color azul cian y amarillo.</p>
+
+  <p>Pelaje: Su pelaje es erizado y parece estar sujeto a electricidad estática, con una melena amarilla puntiaguda en la cabeza y mechones amarillos en las ancas y alrededor de las patas delanteras.</p>
+
+<p>Patas: Posee patas robustas con tres dedos y garras.</p>
+<p>Cabeza: Tiene un hocico largo, ojos rojos y agujeros a los lados de la cabeza que parecen orejas.</p>
+<p>Cola: Su cola azul es angular y puntiaguda.</p>
+</body>
+</html>
